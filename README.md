@@ -18,7 +18,9 @@
 
 .
 ├── fetch_yi_zh_saturate_fixed.py    # STAGE 1: 全球10路由饱和式纯中文文献抓取引擎
+
 ├── cyber_divination_pure.py         # STAGE 2: 纯净直连版量子起卦解卦系统
+
 └── gua_matrix.json                  # DATA: 抓取落地的全本六十四卦纯正中文全息矩阵大库
 
 ```
@@ -38,7 +40,7 @@ pip install requests[socks]
 
 运行抓取软件，穿透本地代理通道，从全球 10 个分布式异构节点（横跨大厂开源平台、国际前端 CDN 缓存、学术镜像站等）全量下载并清洗出 100% 毫无英文污染的正统中文十三经周易全文。
 
-* **前置配置**：打开 `fetch_yi_zh_saturate_fixed.py`，根据你本地代理软件的实际本地端口修改前端代理设置：
+* **前置配置**：打开 `fetch_yi_core.py`，根据你本地代理软件的实际本地端口修改前端代理设置：
 ```python
 SOCKS5_PROXY = "socks5://127.0.0.1:2333"  # 填入你可用的 SOCKS5 中继地址
 
